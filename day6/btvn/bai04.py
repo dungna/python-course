@@ -13,3 +13,6 @@ myDict = {
 	16: 200
 }
 
+l1 = list(myDict.keys())
+l1.sort(reverse=True) 
+print("3 gia tri key lon nhat: {}, {}, {}".format(l1[0], l1[1], l1[2]))
